@@ -1,0 +1,66 @@
+{
+  "vouched": [
+    {
+      "name": "A & B Workshop",
+      "image": "",
+      "category": "Crafts & Hobbies",
+      "opening": "March 2022",
+      "interested": 741,
+      "products": [
+        {
+          "name": "Singing Workshop I",
+          "price": "2,500",
+          "image": ""
+        },
+        {
+          "name": "Piano Workshop I",
+          "price": "5,500",
+          "image": ""
+        },
+        {
+          "name": "Intro to Gesture Drawing",
+          "price": "1,500",
+          "image": ""
+        },
+        {
+          "name": "Color Theory I",
+          "price": "2,500",
+          "image": ""
+        }
+      ],
+      "menu": [],
+      "services": []
+    },
+    {
+      "name": "Miguel's",
+      "image": "",
+      "category": "Food & Restaurants",
+      "opening": "Soon",
+      "interested": 201,
+      "products": [],
+      "services": [],
+      "menu": [
+        {
+          "name": "Singing Workshop I",
+          "price": "2,500",
+          "image": ""
+        },
+        {
+          "name": "Piano Workshop I",
+          "price": "5,500",
+          "image": ""
+        },
+        {
+          "name": "Intro to Gesture Drawing",
+          "price": "1,500",
+          "image": ""
+        },
+        {
+          "name": "Color Theory I",
+          "price": "2,500",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
