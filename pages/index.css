@@ -103,7 +103,7 @@
   position: relative;
   display: flex;
 }
-.LOOP {
+.AGAP {
   position: relative;
   z-index: 7;
   pointer-events: none;
@@ -133,7 +133,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.LOOP-outer {
+.AGAP-outer {
   pointer-events: none;
   z-index: 7;
   position: relative;
@@ -576,7 +576,7 @@
   position: relative;
   display: flex;
 }
-.Go-to-LOOP-Home {
+.Go-to-AGAP-Home {
   position: relative;
   z-index: 29;
   pointer-events: none;
@@ -597,7 +597,7 @@
   font-size: 48px;
   line-height: 72px;
 }
-.Go-to-LOOP-Home-outer {
+.Go-to-AGAP-Home-outer {
   pointer-events: none;
   z-index: 29;
   justify-content: flex-end;
