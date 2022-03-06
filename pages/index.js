@@ -18,7 +18,6 @@ export default function Home() {
 
   function changeModal(e) {
     const input = e.target.id;
-    alert(input);
     let split = input.split("/");
     setModal(
       <ModalComponent data={split[1]} type={split[0]} closeModal={closeModal} />
