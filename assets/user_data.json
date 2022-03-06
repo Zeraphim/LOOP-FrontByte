@@ -2,7 +2,8 @@
   "vouched": [
     {
       "name": "A & B Workshop",
-      "image": "",
+      "location": "Carsadang Bago, Imus, Cavite",
+      "image": "https://picsum.photos/200/?rand&t=1",
       "category": "Crafts & Hobbies",
       "opening": "March 2022",
       "interested": 741,
@@ -10,22 +11,22 @@
         {
           "name": "Singing Workshop I",
           "price": "2,500",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=11"
         },
         {
           "name": "Piano Workshop I",
           "price": "5,500",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=11d"
         },
         {
           "name": "Intro to Gesture Drawing",
           "price": "1,500",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=11s"
         },
         {
           "name": "Color Theory I",
           "price": "2,500",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=11sa"
         }
       ],
       "menu": [],
@@ -33,7 +34,8 @@
     },
     {
       "name": "Miguel's",
-      "image": "",
+      "location": "Nueno Avenue, Imus, Cavite",
+      "image": "https://picsum.photos/200/?rand&t=2",
       "category": "Food & Restaurants",
       "opening": "Soon",
       "interested": 201,
@@ -95,7 +97,8 @@
     },
     {
       "name": "Skate Park",
-      "image": "",
+      "image": "https://picsum.photos/200/?rand&t=3",
+      "location": "Nueno Avenue, Imus, Cavite",
       "category": "Leisure",
       "opening": "June 2022",
       "interested": 41,
@@ -114,7 +117,7 @@
     {
       "name": "AJX Computer Shop - Servicing",
       "location": "Carsadang Bago, Imus, Cavite",
-      "image": "",
+      "image": "https://picsum.photos/200/?rand&t=4",
       "category": "Crafts & Hobbies",
       "rating": 4.23,
       "products": [
@@ -140,7 +143,7 @@
     {
       "name": "Badminton Court - Lotus Mall",
       "location": "Nueno Avenue, Imus, Cavite",
-      "image": "",
+      "image": "https://picsum.photos/200/?rand&t=5",
       "category": "Crafts & Hobbies",
       "rating": 4.07,
       "products": [
@@ -156,7 +159,7 @@
     {
       "name": "LJ Bike Shop - Imus",
       "location": "Tamsui Ave, Imus, Cavite",
-      "image": "",
+      "image": "https://picsum.photos/200/?rand&t=6",
       "category": "Crafts & Hobbies",
       "rating": 4.64,
       "products": [],
@@ -169,7 +172,7 @@
       "name": "Korean Mini Mart",
       "location": "Carsadang Bago, Imus, Cavite",
       "vouched": false,
-      "image": "",
+      "image": "https://picsum.photos/200/?rand&t=7",
       "category": "Grocery",
       "interested": 59,
       "products": [
@@ -240,7 +243,7 @@
     {
       "name": "Mar's Eatery",
       "location": "Toclong, Imus, Cavite",
-      "image": "",
+      "image": "https://picsum.photos/200/?rand&t=8",
       "category": "Food & Restaurants",
       "interested": 7,
       "vouched": true,
@@ -250,7 +253,7 @@
     },
     {
       "name": "Alfa Mart",
-      "image": "",
+      "image": "https://picsum.photos/200/?rand&t=9",
       "location": "Alapan I-A, Imus, Cavite",
       "category": "Food & Restaurants",
       "interested": 7,

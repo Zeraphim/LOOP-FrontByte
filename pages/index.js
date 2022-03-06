@@ -10,10 +10,29 @@ import { useRef, useState } from "react";
 import VouchedComponent from "../components/VouchedComponent";
 import RecommendationComponent from "../components/RecommendationComponent";
 import ProposedComponent from "../components/ProposedComponent";
+import ModalComponent from "../components/ModalComponent";
 
 export default function Home() {
+  const [modal, setModal] = useState(<></>);
+  const [modalOpen, setOpen] = useState(false);
+
+  function changeModal(e) {
+    const input = e.target.id;
+    alert(input);
+    let split = input.split("/");
+    setModal(
+      <ModalComponent data={split[1]} type={split[0]} closeModal={closeModal} />
+    );
+    setOpen(true);
+  }
+
+  function closeModal() {
+    setModal(<></>);
+    setOpen(false);
+  }
   return (
-    <>
+    <div className="relative">
+      {modalOpen ? modal : <></>}
       <div className="bg-gradient-to-r from-blue-500 to-blue-300 pb-8">
         <div className="mx-5 flex flex-col">
           <div className="font-light text-xs mt-5 text-white">
@@ -36,7 +55,7 @@ export default function Home() {
           back once they're open!
         </div>
         <div className="mt-3">
-          <VouchedComponent />
+          <VouchedComponent changeModal={changeModal} />
         </div>
       </div>
       <div className="px-5 py-3 bg-white mb-5">
@@ -47,7 +66,7 @@ export default function Home() {
           Check out some of the most visited destinations in your area.
         </div>
         <div className="mt-3 mb-3">
-          <RecommendationComponent />
+          <RecommendationComponent changeModal={changeModal} />
         </div>
         <div className="text-center text-sm">See more</div>
       </div>
@@ -63,6 +82,6 @@ export default function Home() {
           <ProposedComponent />
         </div>
       </div>
-    </>
+    </div>
   );
 }

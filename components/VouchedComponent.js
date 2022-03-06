@@ -4,7 +4,15 @@ import user_data from "../assets/user_data.json";
 const VouchedComponent = (props) => {
   let items = [];
   for (let i = 0; i < user_data.vouched.length; i++) {
-    items.push(<VouchedItem data={user_data.vouched[i]} index={i} />);
+    items.push(
+      <VouchedItem
+        data={user_data.vouched[i]}
+        index={i}
+        changeModal={props.changeModal}
+        type="vouched"
+        id={i}
+      />
+    );
   }
   return (
     <div className="flex flex-row space-x-2 no-scrollbar overflow-y-auto flex-nowrap">
@@ -16,39 +24,49 @@ const VouchedComponent = (props) => {
 const VouchedItem = (props) => {
   if (props.index > 0)
     return (
-      <div
+      <button
         className="bg-white p-3 flex flex-col flex-none shadow-md mb-5 rounded ml-5"
         style={{ width: "150px" }}
+        onClick={props.changeModal}
+        id={`vouched/${props.id}`}
       >
-        <div className="mb-2">
+        <div className="mb-2" style={{ width: "100%", pointerEvents: "none" }}>
           <ImageComponent src={props.data.image} />
         </div>
-        <h3 className="font-number text-sm font-bold truncate">
+        <h3 className="font-number text-sm font-bold truncate pointer-events-none">
           {props.data.name}
         </h3>
-        <h5 className="text-xs font-light truncate">{props.data.category}</h5>
-        <h5 className="text-xs mt-3">Est. opening</h5>
-        <h5 className="text-sm font-number font-semibold">
+        <h5 className="text-xs font-light truncate pointer-events-none">
+          {props.data.category}
+        </h5>
+        <h5 className="text-xs mt-3 pointer-events-none">Est. opening</h5>
+        <h5 className="text-sm font-number font-semibold pointer-events-none">
           {props.data.opening}
         </h5>
-      </div>
+      </button>
     );
   else
     return (
-      <div
+      <button
         className="bg-white p-3 flex flex-col flex-none shadow-md mb-5 rounded ml-5"
         style={{ width: "150px" }}
+        onClick={props.changeModal}
+        id={`vouched/${props.id}`}
       >
-        <div className="mb-2">
+        <div className="mb-2" style={{ width: "100%", pointerEvents: "none" }}>
           <ImageComponent src={props.data.image} />
         </div>
-        <h3 className="font-number text-sm font-bold">{props.data.name}</h3>
-        <h5 className="text-xs font-light">{props.data.category}</h5>
-        <h5 className="text-xs mt-3">Est. opening</h5>
-        <h5 className="text-sm font-number font-semibold">
+        <h3 className="font-number text-sm font-bold pointer-events-none">
+          {props.data.name}
+        </h3>
+        <h5 className="text-xs font-light pointer-events-none">
+          {props.data.category}
+        </h5>
+        <h5 className="text-xs mt-3 pointer-events-none">Est. opening</h5>
+        <h5 className="text-sm font-number font-semibold pointer-events-none">
           {props.data.opening}
         </h5>
-      </div>
+      </button>
     );
 };
 
