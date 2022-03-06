@@ -117,7 +117,7 @@ export default function Map() {
                     </div>
                 </div>
             </header>
-            <div class="overflow-auto h-screen pb-24 px-4 md:px-6">
+            <div class="overflow-auto h-screen pb-5 px-0 md:px-0">
                 
                 <MainMap></MainMap>
             
