@@ -7,28 +7,37 @@ import { useRouter } from "next/router";
 import { NextApiRequest, NextApiResponses } from "next";
 
 import { useRef, useState } from "react";
+import VouchedComponent from "../components/VouchedComponent";
+import RecommendationComponent from "../components/RecommendationComponent";
+import ProposedComponent from "../components/ProposedComponent";
 
 export default function Home() {
   return (
     <>
-      <div className="bg-red-500 pb-8">
+      <div className="bg-gradient-to-r from-blue-500 to-blue-300 pb-8">
         <div className="mx-5 flex flex-col">
-          <div className="font-light text-xs mt-5">Current Location</div>
-          <div className="font-bold font-number text-md">Imus, Cavite</div>
+          <div className="font-light text-xs mt-5 text-white">
+            Current Location
+          </div>
+          <div className="font-bold font-number text-md text-white">
+            Imus, Cavite
+          </div>
         </div>
       </div>
       <div className="mx-5 p-3 bg-white mt-3 rounded shadow-md text-gray-500 -mt-5">
         Where do you want to go today?
       </div>
-      <div className="mx-5">
-        <div className="font-number font-semibold text-xl mt-5">
+      <div>
+        <div className="mx-5 font-number font-semibold text-xl mt-5">
           Things you're excited for
         </div>
-        <div className="font-light text-sm text-gray-500">
+        <div className="mx-5 font-light text-sm text-gray-500">
           You've vouched for these soon-to-be businesses. Make sure to check
           back once they're open!
         </div>
-        <div className="bg-green-400 mt-3 mb-5">Placeholder</div>
+        <div className="mt-3">
+          <VouchedComponent />
+        </div>
       </div>
       <div className="px-5 py-3 bg-white mb-5">
         <div className="font-number font-semibold text-xl">
@@ -37,18 +46,22 @@ export default function Home() {
         <div className="font-light text-sm text-gray-500">
           Check out some of the most visited destinations in your area.
         </div>
-        <div className="bg-green-400 mt-3 mb-3">Placeholder</div>
+        <div className="mt-3 mb-3">
+          <RecommendationComponent />
+        </div>
         <div className="text-center text-sm">See more</div>
       </div>
-      <div className="px-5">
-        <div className="font-number font-semibold text-xl">
+      <div>
+        <div className="px-5 font-number font-semibold text-xl">
           Proposed Businesses
         </div>
-        <div className="font-light text-sm text-gray-500">
+        <div className="px-5 font-light text-sm text-gray-500">
           Help prospective businesses gauge public demand and earn rewards when
           they open{" "}
         </div>
-        <div className="bg-green-400 mt-3 mb-5">Placeholder</div>
+        <div className="mt-3 mb-3">
+          <ProposedComponent />
+        </div>
       </div>
     </>
   );

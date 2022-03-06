@@ -41,26 +41,223 @@
       "services": [],
       "menu": [
         {
-          "name": "Singing Workshop I",
-          "price": "2,500",
-          "image": ""
+          "name": "Special",
+          "items": [
+            {
+              "item_name": "Special 1",
+              "price": "500"
+            },
+            {
+              "item_name": "Special 2",
+              "price": "400"
+            },
+            {
+              "item_name": "Special 3",
+              "price": "800"
+            }
+          ]
         },
         {
-          "name": "Piano Workshop I",
-          "price": "5,500",
-          "image": ""
+          "name": "All day breakfast",
+          "items": [
+            {
+              "item_name": "Breakfast 1",
+              "price": "100"
+            },
+            {
+              "item_name": "Breakfast 2",
+              "price": "100"
+            },
+            {
+              "item_name": "Breakfast 3",
+              "price": "200"
+            }
+          ]
         },
         {
-          "name": "Intro to Gesture Drawing",
-          "price": "1,500",
-          "image": ""
-        },
-        {
-          "name": "Color Theory I",
-          "price": "2,500",
-          "image": ""
+          "name": "Miguel's Best",
+          "items": [
+            {
+              "item_name": "Best 1",
+              "price": "1000"
+            },
+            {
+              "item_name": "Best 2",
+              "price": "500"
+            },
+            {
+              "item_name": "Best 3",
+              "price": "300"
+            }
+          ]
         }
       ]
+    },
+    {
+      "name": "Skate Park",
+      "image": "",
+      "category": "Leisure",
+      "opening": "June 2022",
+      "interested": 41,
+      "products": [
+        {
+          "name": "All Day Pass",
+          "price": "200",
+          "image": ""
+        }
+      ],
+      "menu": [],
+      "services": []
+    }
+  ],
+  "to_visit": [
+    {
+      "name": "AJX Computer Shop - Servicing",
+      "location": "Carsadang Bago, Imus, Cavite",
+      "image": "",
+      "category": "Crafts & Hobbies",
+      "rating": 4.23,
+      "products": [
+        {
+          "name": "General Cleaning",
+          "price": "300",
+          "image": ""
+        },
+        {
+          "name": "Basic Troubleshooting",
+          "price": "250",
+          "image": ""
+        },
+        {
+          "name": "Assembly and Windows Install",
+          "price": "500",
+          "image": ""
+        }
+      ],
+      "menu": [],
+      "services": []
+    },
+    {
+      "name": "Badminton Court - Lotus Mall",
+      "location": "Nueno Avenue, Imus, Cavite",
+      "image": "",
+      "category": "Crafts & Hobbies",
+      "rating": 4.07,
+      "products": [
+        {
+          "name": "All Day Pass",
+          "price": "100",
+          "image": ""
+        }
+      ],
+      "menu": [],
+      "services": []
+    },
+    {
+      "name": "LJ Bike Shop - Imus",
+      "location": "Tamsui Ave, Imus, Cavite",
+      "image": "",
+      "category": "Crafts & Hobbies",
+      "rating": 4.64,
+      "products": [],
+      "menu": [],
+      "services": []
+    }
+  ],
+  "proposed": [
+    {
+      "name": "Korean Mini Mart",
+      "location": "Carsadang Bago, Imus, Cavite",
+      "vouched": false,
+      "image": "",
+      "category": "Grocery",
+      "interested": 59,
+      "products": [
+        {
+          "name": "Item I",
+          "price": "500",
+          "image": ""
+        },
+        {
+          "name": "Item 2",
+          "price": "150",
+          "image": ""
+        },
+        {
+          "name": "Item 3",
+          "price": "300",
+          "image": ""
+        },
+        {
+          "name": "Item 4",
+          "price": "200",
+          "image": ""
+        },
+        {
+          "name": "Item 5",
+          "price": "600",
+          "image": ""
+        },
+        {
+          "name": "Item 6",
+          "price": "50",
+          "image": ""
+        },
+        {
+          "name": "Item 7",
+          "price": "70",
+          "image": ""
+        },
+        {
+          "name": "Item 8",
+          "price": "120",
+          "image": ""
+        },
+        {
+          "name": "Item 9",
+          "price": "25",
+          "image": ""
+        },
+        {
+          "name": "Item 10",
+          "price": "350",
+          "image": ""
+        },
+        {
+          "name": "Item 11",
+          "price": "158",
+          "image": ""
+        },
+        {
+          "name": "Item 12",
+          "price": "270",
+          "image": ""
+        }
+      ],
+      "menu": [],
+      "services": []
+    },
+    {
+      "name": "Mar's Eatery",
+      "location": "Toclong, Imus, Cavite",
+      "image": "",
+      "category": "Food & Restaurants",
+      "interested": 7,
+      "vouched": true,
+      "products": [],
+      "menu": [],
+      "services": []
+    },
+    {
+      "name": "Alfa Mart",
+      "image": "",
+      "location": "Alapan I-A, Imus, Cavite",
+      "category": "Food & Restaurants",
+      "interested": 7,
+      "vouched": false,
+      "products": [],
+      "menu": [],
+      "services": []
     }
   ]
 }
