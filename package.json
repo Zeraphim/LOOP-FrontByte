@@ -11,22 +11,22 @@
     "start": "next start"
   },
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "next-images": "^1.8.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-hook-form": "^7.22.5",
-    "react-map-gl": "^6.1.18",
-    "react-router-dom": "^6.2.1",
-    "react-select": "^5.2.1",
-    "react-textarea-autosize": "^8.3.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "chart.js": "^3.3.2",
+    "fs": "^0.0.1-security",
     "next": "10.2.3",
-    "react-chartjs-2": "^3.0.3"
+    "next-images": "^1.8.4",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.22.5",
+    "react-map-gl": "^6.1.19",
+    "react-router-dom": "^6.2.1",
+    "react-select": "^5.2.1",
+    "react-textarea-autosize": "^8.3.3"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "^8.5.6",
