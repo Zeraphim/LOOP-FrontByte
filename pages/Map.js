@@ -4,6 +4,14 @@ import styles from "../styles/Home.module.css";
 import Content from "./components/Content";
 import Header from "./components/Header";
 import LeftNavbar from "./components/LeftNavbar";
+import MainMap from "./use-mapbox-gl-js-with-react/Mainmap";
+import 'mapbox-gl/dist/mapbox-gl.css';
+
+import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import { Main } from "next/document";
+
+mapboxgl.accessToken = 'pk.eyJ1IjoieWVzaHVhNjk2OTY5IiwiYSI6ImNrdWE0azFsNjBkNzIydW8xYXJmemN0ZGoifQ.2VDp6BOPCxpYZE--X4yFDQ';
+
 export default function Map() {
 	return (
 
@@ -111,7 +119,7 @@ export default function Map() {
             </header>
             <div class="overflow-auto h-screen pb-24 px-4 md:px-6">
                 
-            <div id='map'></div>
+                <MainMap></MainMap>
             
             </div>
         </div>

@@ -4,6 +4,11 @@ import styles from "../styles/Home.module.css";
 import Content from "./components/Content";
 import Header from "./components/Header";
 import LeftNavbar from "./components/LeftNavbar";
+
+import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+
+mapboxgl.accessToken = 'pk.eyJ1IjoieWVzaHVhNjk2OTY5IiwiYSI6ImNrdWE0azFsNjBkNzIydW8xYXJmemN0ZGoifQ.2VDp6BOPCxpYZE--X4yFDQ';
+
 export default function Dashboard() {
 	return (
 
