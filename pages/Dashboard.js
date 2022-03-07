@@ -45,9 +45,6 @@ export default function Dashboard() {
                             </span>
                             <span class="mx-2 text-sm font-normal">
                                 Map
-                                <span class="p-1 ml-4 rounded-lg w-4 h-2 bg-gray-200 text-gray-400 text-xs">
-                                    0
-                                </span>
                             </span>
                         </a>
                         <a class="w-full text-gray-400 flex items-center pl-6 p-2 my-2 transition-colors duration-200 justify-start hover:text-gray-800 border-l-4 border-transparent" href="#">
@@ -103,10 +100,10 @@ export default function Dashboard() {
                         <span class="w-1 h-8 rounded-lg bg-gray-200">
                         </span>
                         <a href="#" class="block relative">
-                            <img alt="profil" src="/images/person/1.jpg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
+                            <img alt="profil" src="https://firebasestorage.googleapis.com/v0/b/loop-frontbyte.appspot.com/o/garfield.png?alt=media&token=3b4386dd-113e-465d-8cc5-7a09abd41e72" class="mx-auto object-cover rounded-full h-10 w-10 "/>
                         </a>
                         <button class="flex items-center text-gray-500 dark:text-white text-md">
-                            Charlie R
+                            John D.
                             <svg width="20" height="20" class="ml-2 text-gray-400" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1408 704q0 26-19 45l-448 448q-19 19-45 19t-45-19l-448-448q-19-19-19-45t19-45 45-19h896q26 0 45 19t19 45z">
                                 </path>
