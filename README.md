@@ -17,7 +17,7 @@ LOOP provides a platform for relationships between would-be businesses and poten
 </ul>
 
 ## ✅ Getting Started
-Tested on Windows 10
+Tested on Windows 10 and 11
 
 #### 1. Install Node 16.14.0 or higher versions
    https://nodejs.org/en/download/
