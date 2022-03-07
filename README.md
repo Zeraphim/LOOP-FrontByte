@@ -40,8 +40,9 @@ Now you're ready to rumble! 🚥
 ## ➿ "Always on the LOOP, always doing good. We do the LOOP!" ➿
 
 By undergraduates from Mapúa University, namely:
-<li>John Christian S. Diamante (BS Computer Science - 2nd Year)</li>
-<li>John Emmanuel S. Dela Vega (BS Computer Science - 2nd Year)</li>
-<li>Yeshua Miguel Abrenica (BS Information Technology - 1st Year)</li>
-<li>Grace Ann Domingo (BS Computer Science - 2nd Year)</li>
-<li>Glenn Marcus D. Cinco (BS Computer Science - 2nd Year)</li>
+<li>Abrenica, Yeshua Miguel (BS Information Technology - 1st Year)</li>
+<li>Cinco, Glenn Marcus D. (BS Computer Science - 2nd Year)</li>
+<li>Diamante, John Christian S. (BS Computer Science - 2nd Year)</li>
+<li>Dela Vega, John Emmanuel S. (BS Computer Science - 2nd Year)</li>
+<li>Domingo, Grace Ann (BS Computer Science - 2nd Year)</li>
+
