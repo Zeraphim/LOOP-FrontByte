@@ -5,8 +5,10 @@
       "location": "Carsadang Bago, Imus, Cavite",
       "image": "https://picsum.photos/200/?rand&t=1",
       "category": "Crafts & Hobbies",
+      "reward": "Enjoy 10% off on all products when this business opens.",
       "opening": "March 2022",
       "interested": 741,
+      "hiring": true,
       "products": [
         {
           "name": "Singing Workshop I",
@@ -35,6 +37,7 @@
     {
       "name": "Miguel's",
       "location": "Nueno Avenue, Imus, Cavite",
+      "reward": "25% off for your first dine in. Minimum spend applies.",
       "image": "https://picsum.photos/200/?rand&t=2",
       "category": "Food & Restaurants",
       "opening": "Soon",
@@ -47,15 +50,18 @@
           "items": [
             {
               "item_name": "Special 1",
-              "price": "500"
+              "price": "500",
+              "image": ""
             },
             {
               "item_name": "Special 2",
-              "price": "400"
+              "price": "400",
+              "image": ""
             },
             {
               "item_name": "Special 3",
-              "price": "800"
+              "price": "800",
+              "image": ""
             }
           ]
         },
@@ -99,6 +105,7 @@
       "name": "Skate Park",
       "image": "https://picsum.photos/200/?rand&t=3",
       "location": "Nueno Avenue, Imus, Cavite",
+      "reward": "Free 3-day All Day Pass when Skate Park opens.",
       "category": "Leisure",
       "opening": "June 2022",
       "interested": 41,
@@ -161,6 +168,7 @@
       "location": "Tamsui Ave, Imus, Cavite",
       "image": "https://picsum.photos/200/?rand&t=6",
       "category": "Crafts & Hobbies",
+      "hiring": true,
       "rating": 4.64,
       "products": [],
       "menu": [],
