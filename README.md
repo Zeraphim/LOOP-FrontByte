@@ -9,7 +9,6 @@ LOOP provides a platform for relationship between would-be businesses and potent
 <li>Javascript 📜</li>
 <li>Node.js 💠</li>
 <li>React JS💻</li>
-<li>MUI: Material UI ✔</li>
 <li>Next.js ⚛</li>
 <li>Mapbox 🗺</li>
 <li>Tailwind CSS 🍃</li>
@@ -33,3 +32,13 @@ Tested on Windows 10
    npm run dev
    ```
 #### 4. 
+
+
+## "Always on the LOOP"
+By undergraduates from Mapúa University, namely:
+<li>Abrenica, Yeshua Miguel B. (BS Information Technology - 1st Year)</li>
+<li>Cinco, Glenn Marcus D. (BS Computer Science - 2nd Year)</li>
+<li>Dela Vega, John Emmanuel J. (BS Computer Science - 2nd Year)</li>
+<li>Diamante, John Christian S. (BS Computer Science - 2nd Year)</li>
+<li>Domingo, Grace Ann I. (BS Computer Science - 2nd Year)</li>
+
