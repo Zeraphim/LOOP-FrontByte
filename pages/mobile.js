@@ -32,14 +32,17 @@ export default function Mobile() {
   return (
     <div className="relative">
       {modalOpen ? modal : <></>}
-      <div className="bg-gradient-to-r from-blue-500 to-blue-300 pb-8">
-        <div className="mx-5 flex flex-col">
+      <div className="bg-gradient-to-r from-blue-500 to-blue-300 pb-8 flex flex-row items-center">
+        <div className="mx-5 flex flex-col" style={{ flexGrow: 1 }}>
           <div className="font-light text-xs mt-5 text-white">
             Current Location
           </div>
           <div className="font-bold font-number text-md text-white">
             Imus, Cavite
           </div>
+        </div>
+        <div className="mx-5 mt-5">
+          <img src="/loop.png" style={{ maxWidth: "50px" }} />
         </div>
       </div>
       <div className="mx-5 p-3 bg-white mt-3 rounded shadow-md text-gray-500 -mt-5">

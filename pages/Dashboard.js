@@ -100,10 +100,10 @@ export default function Dashboard() {
                         <span class="w-1 h-8 rounded-lg bg-gray-200">
                         </span>
                         <a href="#" class="block relative">
-                            <img alt="profil" src="https://firebasestorage.googleapis.com/v0/b/loop-frontbyte.appspot.com/o/garfield.png?alt=media&token=3b4386dd-113e-465d-8cc5-7a09abd41e72" class="mx-auto object-cover rounded-full h-10 w-10 "/>
+                            <img alt="profil" src="https://firebasestorage.googleapis.com/v0/b/loop-frontbyte.appspot.com/o/workshop%20logo.png?alt=media&token=ae2f94ae-7909-4c0c-9496-ec0feab2c6ec" class="mx-auto object-cover rounded-full h-10 w-10 "/>
                         </a>
                         <button class="flex items-center text-gray-500 dark:text-white text-md">
-                            John D.
+						A & B Workshop
                             <svg width="20" height="20" class="ml-2 text-gray-400" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1408 704q0 26-19 45l-448 448q-19 19-45 19t-45-19l-448-448q-19-19-19-45t19-45 45-19h896q26 0 45 19t19 45z">
                                 </path>
@@ -114,7 +114,7 @@ export default function Dashboard() {
             </header>
             <div class="overflow-auto h-screen pb-24 px-4 md:px-6">
                 <h1 class="text-4xl font-semibold text-gray-800 dark:text-white">
-                    Good afternoon, John Doe
+                    A & B Workshop
                 </h1>
                 <h2 class="text-md text-gray-400">
                     Here&#x27;s what&#x27;s happening with your ambassador account today.
@@ -136,9 +136,9 @@ export default function Dashboard() {
                                         </p>
                                     </div>
                                     <div class="border-b border-gray-200 mt-6 md:mt-0 text-black dark:text-white font-bold text-xl">
-                                        $44,453.39
+									420  
                                         <span class="text-xs text-gray-400">
-                                            /$100K
+                                              / vouches
                                         </span>
                                     </div>
                                 </div>
@@ -156,17 +156,17 @@ export default function Dashboard() {
                                     12
                                 </p>
                                 <p class="text-gray-400 text-sm">
-                                    Active projects
+                                    Products
                                 </p>
                             </div>
                         </div>
                         <div class="w-1/2">
                             <div class="shadow-lg px-4 py-6 w-full bg-white dark:bg-gray-700 relative">
                                 <p class="text-2xl text-black dark:text-white font-bold">
-                                    $93.76
+								431
                                 </p>
                                 <p class="text-gray-400 text-sm">
-                                    Commission in approval
+                                    Engagements
                                 </p>
                                 <span class="rounded-full absolute p-4 bg-purple-500 top-2 right-4">
                                     <svg width="40" fill="currentColor" height="40" class="text-white h-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -198,11 +198,11 @@ export default function Dashboard() {
                     <div class="w-full">
                         <div class="shadow-lg px-4 py-6 w-full bg-white dark:bg-gray-700 relative">
                             <p class="text-sm w-max text-gray-700 dark:text-white font-semibold border-b border-gray-200">
-                                Project Reffered
+                                Recent Vouches
                             </p>
                             <div class="flex items-end space-x-2 my-6">
                                 <p class="text-5xl text-black dark:text-white font-bold">
-                                    12
+                                    420
                                 </p>
                                 <span class="text-green-500 text-xl font-bold flex items-center">
                                     <svg width="20" fill="currentColor" height="20" class="h-3" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -215,7 +215,7 @@ export default function Dashboard() {
                             <div class="dark:text-white">
                                 <div class="flex items-center pb-2 mb-2 text-sm sm:space-x-12  justify-between border-b border-gray-200">
                                     <p>
-                                        Unique URL
+                                        Same region
                                     </p>
                                     <div class="flex items-end text-xs">
                                         34
@@ -230,7 +230,7 @@ export default function Dashboard() {
                                 </div>
                                 <div class="flex items-center mb-2 pb-2 text-sm space-x-12 md:space-x-24 justify-between border-b border-gray-200">
                                     <p>
-                                        Embedded form
+                                        Outside Region
                                     </p>
                                     <div class="flex items-end text-xs">
                                         13
@@ -245,7 +245,7 @@ export default function Dashboard() {
                                 </div>
                                 <div class="flex items-center text-sm space-x-12 md:space-x-24 justify-between">
                                     <p>
-                                        New visitor
+                                        Overall Growth
                                     </p>
                                     <div class="flex items-end text-xs">
                                         45
@@ -264,11 +264,11 @@ export default function Dashboard() {
                     <div class="w-full">
                         <div class="shadow-lg px-4 py-6 w-full bg-white dark:bg-gray-700 relative">
                             <p class="text-sm w-max text-gray-700 dark:text-white font-semibold border-b border-gray-200">
-                                Project Paid
+                                Competitors
                             </p>
                             <div class="flex items-end space-x-2 my-6">
                                 <p class="text-5xl text-black dark:text-white font-bold">
-                                    23
+                                    9
                                 </p>
                                 <span class="text-green-500 text-xl font-bold flex items-center">
                                     <svg width="20" fill="currentColor" height="20" class="h-3" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -281,10 +281,10 @@ export default function Dashboard() {
                             <div class="dark:text-white">
                                 <div class="flex items-center pb-2 mb-2 text-sm space-x-12 md:space-x-24 justify-between border-b border-gray-200">
                                     <p>
-                                        User paid
+                                        Last Year
                                     </p>
                                     <div class="flex items-end text-xs">
-                                        21
+                                        3
                                         <span class="flex items-center">
                                             <svg width="20" fill="currentColor" height="20" class="h-3 text-green-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1675 971q0 51-37 90l-75 75q-38 38-91 38-54 0-90-38l-294-293v704q0 52-37.5 84.5t-90.5 32.5h-128q-53 0-90.5-32.5t-37.5-84.5v-704l-294 293q-36 38-90 38t-90-38l-75-75q-38-38-38-90 0-53 38-91l651-651q35-37 90-37 54 0 91 37l651 651q37 39 37 91z">
@@ -296,10 +296,10 @@ export default function Dashboard() {
                                 </div>
                                 <div class="flex items-center mb-2 pb-2 text-sm space-x-12 md:space-x-24 justify-between border-b border-gray-200">
                                     <p>
-                                        Income
+                                        Last Month
                                     </p>
                                     <div class="flex items-end text-xs">
-                                        10
+                                        7
                                         <span class="flex items-center">
                                             <svg width="20" fill="currentColor" height="20" class="h-3 text-green-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1675 971q0 51-37 90l-75 75q-38 38-91 38-54 0-90-38l-294-293v704q0 52-37.5 84.5t-90.5 32.5h-128q-53 0-90.5-32.5t-37.5-84.5v-704l-294 293q-36 38-90 38t-90-38l-75-75q-38-38-38-90 0-53 38-91l651-651q35-37 90-37 54 0 91 37l651 651q37 39 37 91z">
@@ -311,10 +311,10 @@ export default function Dashboard() {
                                 </div>
                                 <div class="flex items-center text-sm space-x-12 md:space-x-24 justify-between">
                                     <p>
-                                        Royal tees
+                                        Overall
                                     </p>
                                     <div class="flex items-end text-xs">
-                                        434
+                                        9
                                         <span class="flex items-center">
                                             <svg width="20" fill="currentColor" height="20" class="h-3 text-red-500 rotate-180 transform" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1675 971q0 51-37 90l-75 75q-38 38-91 38-54 0-90-38l-294-293v704q0 52-37.5 84.5t-90.5 32.5h-128q-53 0-90.5-32.5t-37.5-84.5v-704l-294 293q-36 38-90 38t-90-38l-75-75q-38-38-38-90 0-53 38-91l651-651q35-37 90-37 54 0 91 37l651 651q37 39 37 91z">
@@ -330,27 +330,21 @@ export default function Dashboard() {
                     <div class="w-full">
                         <div class="shadow-lg px-4 py-6 w-full bg-white dark:bg-gray-700 relative">
                             <p class="text-sm w-max text-gray-700 dark:text-white font-semibold border-b border-gray-200">
-                                New features
+                                Day Until Opening
                             </p>
                             <div class="flex items-end space-x-2 my-6">
                                 <p class="text-5xl text-black dark:text-white font-bold">
-                                    12
+                                    89
                                 </p>
-                                <span class="text-red-500 text-xl font-bold flex items-center">
-                                    <svg width="20" fill="currentColor" height="20" class="h-3 rotate-180 transform" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1675 971q0 51-37 90l-75 75q-38 38-91 38-54 0-90-38l-294-293v704q0 52-37.5 84.5t-90.5 32.5h-128q-53 0-90.5-32.5t-37.5-84.5v-704l-294 293q-36 38-90 38t-90-38l-75-75q-38-38-38-90 0-53 38-91l651-651q35-37 90-37 54 0 91 37l651 651q37 39 37 91z">
-                                        </path>
-                                    </svg>
-                                    2%
-                                </span>
+
                             </div>
                             <div class="dark:text-white">
                                 <div class="flex items-center pb-2 mb-2 text-sm space-x-12 md:space-x-24 justify-between border-b border-gray-200">
                                     <p>
-                                        Down
+                                        Vouches
                                     </p>
                                     <div class="flex items-end text-xs">
-                                        34
+                                        420
                                         <span class="flex items-center">
                                             <svg width="20" fill="currentColor" height="20" class="h-3 text-red-500 rotate-180 transform" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1675 971q0 51-37 90l-75 75q-38 38-91 38-54 0-90-38l-294-293v704q0 52-37.5 84.5t-90.5 32.5h-128q-53 0-90.5-32.5t-37.5-84.5v-704l-294 293q-36 38-90 38t-90-38l-75-75q-38-38-38-90 0-53 38-91l651-651q35-37 90-37 54 0 91 37l651 651q37 39 37 91z">
@@ -362,10 +356,10 @@ export default function Dashboard() {
                                 </div>
                                 <div class="flex items-center mb-2 pb-2 text-sm space-x-12 md:space-x-24 justify-between border-b border-gray-200">
                                     <p>
-                                        Up
+                                        Competitors
                                     </p>
                                     <div class="flex items-end text-xs">
-                                        13
+                                        9
                                         <span class="flex items-center">
                                             <svg width="20" fill="currentColor" height="20" class="h-3 text-green-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1675 971q0 51-37 90l-75 75q-38 38-91 38-54 0-90-38l-294-293v704q0 52-37.5 84.5t-90.5 32.5h-128q-53 0-90.5-32.5t-37.5-84.5v-704l-294 293q-36 38-90 38t-90-38l-75-75q-38-38-38-90 0-53 38-91l651-651q35-37 90-37 54 0 91 37l651 651q37 39 37 91z">
@@ -377,10 +371,10 @@ export default function Dashboard() {
                                 </div>
                                 <div class="flex items-center text-sm space-x-12 md:space-x-24 justify-between">
                                     <p>
-                                        No developed
+                                        Followers
                                     </p>
                                     <div class="flex items-end text-xs">
-                                        45
+                                        101
                                         <span class="flex items-center">
                                             <svg width="20" fill="currentColor" height="20" class="h-3 text-red-500 rotate-180 transform" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1675 971q0 51-37 90l-75 75q-38 38-91 38-54 0-90-38l-294-293v704q0 52-37.5 84.5t-90.5 32.5h-128q-53 0-90.5-32.5t-37.5-84.5v-704l-294 293q-36 38-90 38t-90-38l-75-75q-38-38-38-90 0-53 38-91l651-651q35-37 90-37 54 0 91 37l651 651q37 39 37 91z">
@@ -396,11 +390,11 @@ export default function Dashboard() {
                     <div class="w-full">
                         <div class="shadow-lg px-4 py-6 w-full bg-white dark:bg-gray-700 relative">
                             <p class="text-sm w-max text-gray-700 dark:text-white font-semibold border-b border-gray-200">
-                                Sign in
+                                Followers
                             </p>
                             <div class="flex items-end space-x-2 my-6">
                                 <p class="text-5xl text-black dark:text-white font-bold">
-                                    16
+                                    101
                                 </p>
                                 <span class="text-red-500 text-xl font-bold flex items-center">
                                     <svg width="20" fill="currentColor" height="20" class="h-3 transform rotate-180" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -413,7 +407,7 @@ export default function Dashboard() {
                             <div class="dark:text-white">
                                 <div class="flex items-center pb-2 mb-2 text-sm space-x-12 md:space-x-24 justify-between border-b border-gray-200">
                                     <p>
-                                        Amercia
+                                        Royalty
                                     </p>
                                     <div class="flex items-end text-xs">
                                         43
@@ -462,7 +456,7 @@ export default function Dashboard() {
                     <div class="w-full">
                         <div class="shadow-lg px-4 py-6 w-full bg-white dark:bg-gray-700 relative">
                             <p class="text-sm w-max text-gray-700 dark:text-white font-semibold border-b border-gray-200">
-                                Sales
+                                Potential Sales
                             </p>
                             <div class="flex items-end space-x-2 my-6">
                                 <p class="text-5xl text-black dark:text-white font-bold">
@@ -479,7 +473,7 @@ export default function Dashboard() {
                             <div class="dark:text-white">
                                 <div class="flex items-center pb-2 mb-2 text-sm space-x-12 md:space-x-24 justify-between border-b border-gray-200">
                                     <p>
-                                        Templates
+                                        Products
                                     </p>
                                     <div class="flex items-end text-xs">
                                         345
@@ -494,7 +488,7 @@ export default function Dashboard() {
                                 </div>
                                 <div class="flex items-center mb-2 pb-2 text-sm space-x-12 md:space-x-24 justify-between border-b border-gray-200">
                                     <p>
-                                        Components
+                                        Brand Engagement
                                     </p>
                                     <div class="flex items-end text-xs">
                                         139
@@ -509,7 +503,7 @@ export default function Dashboard() {
                                 </div>
                                 <div class="flex items-center text-sm space-x-12 md:space-x-24 justify-between">
                                     <p>
-                                        Icons
+                                        Social Media Engagement
                                     </p>
                                     <div class="flex items-end text-xs">
                                         421

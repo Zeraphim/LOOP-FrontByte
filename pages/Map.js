@@ -21,10 +21,15 @@ export default function Map() {
     <div class="flex items-start justify-between">
         <div class="h-screen hidden lg:block shadow-lg relative w-80">
             <div class="bg-white h-full dark:bg-gray-700">
+
+
+
                 <div class="flex items-center justify-start pt-6 ml-8">
-                    <p class="font-bold dark:text-white text-xl">
-                        Loop
-                    </p>
+
+                <a href="#" class="block relative">
+                            <img alt="profil" src="https://firebasestorage.googleapis.com/v0/b/loop-frontbyte.appspot.com/o/loop.png?alt=media&token=bcef2990-fd25-44a3-bde8-437679e4f763" class="mx-auto object-cover  h-10 w-20 pr-2 ml-0"/>
+                        </a>
+
                 </div>
                 <nav class="mt-6">
                     <div>
@@ -105,10 +110,10 @@ export default function Map() {
                         <span class="w-1 h-8 rounded-lg bg-gray-200">
                         </span>
                         <a href="#" class="block relative">
-                            <img alt="profil" src="https://firebasestorage.googleapis.com/v0/b/loop-frontbyte.appspot.com/o/garfield.png?alt=media&token=3b4386dd-113e-465d-8cc5-7a09abd41e72" class="mx-auto object-cover rounded-full h-10 w-10 "/>
+                            <img alt="profil" src="https://firebasestorage.googleapis.com/v0/b/loop-frontbyte.appspot.com/o/workshop%20logo.png?alt=media&token=ae2f94ae-7909-4c0c-9496-ec0feab2c6ec" class="mx-auto object-cover rounded-full h-10 w-10 "/>
                         </a>
                         <button class="flex items-center text-gray-500 dark:text-white text-md">
-                            John D.
+                            A & B Workshop
                             <svg width="20" height="20" class="ml-2 text-gray-400" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1408 704q0 26-19 45l-448 448q-19 19-45 19t-45-19l-448-448q-19-19-19-45t19-45 45-19h896q26 0 45 19t19 45z">
                                 </path>
