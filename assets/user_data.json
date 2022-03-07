@@ -51,17 +51,17 @@
             {
               "item_name": "Special 1",
               "price": "500",
-              "image": ""
+              "image": "https://picsum.photos/200/?rand&t=22"
             },
             {
               "item_name": "Special 2",
               "price": "400",
-              "image": ""
+              "image": "https://picsum.photos/200/?rand&t=23"
             },
             {
               "item_name": "Special 3",
               "price": "800",
-              "image": ""
+              "image": "https://picsum.photos/200/?rand&t=12"
             }
           ]
         },
@@ -70,15 +70,18 @@
           "items": [
             {
               "item_name": "Breakfast 1",
-              "price": "100"
+              "price": "100",
+              "image": "https://picsum.photos/200/?rand&t=35"
             },
             {
               "item_name": "Breakfast 2",
-              "price": "100"
+              "price": "100",
+              "image": "https://picsum.photos/200/?rand&t=38"
             },
             {
               "item_name": "Breakfast 3",
-              "price": "200"
+              "price": "200",
+              "image": "https://picsum.photos/200/?rand&t=43"
             }
           ]
         },
@@ -87,15 +90,18 @@
           "items": [
             {
               "item_name": "Best 1",
-              "price": "1000"
+              "price": "1000",
+              "image": "https://picsum.photos/200/?rand&t=42"
             },
             {
               "item_name": "Best 2",
-              "price": "500"
+              "price": "500",
+              "image": "https://picsum.photos/200/?rand&t=100"
             },
             {
               "item_name": "Best 3",
-              "price": "300"
+              "price": "300",
+              "image": "https://picsum.photos/200/?rand&t=04"
             }
           ]
         }
@@ -113,7 +119,7 @@
         {
           "name": "All Day Pass",
           "price": "200",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=04"
         }
       ],
       "menu": [],
@@ -131,17 +137,17 @@
         {
           "name": "General Cleaning",
           "price": "300",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=042"
         },
         {
           "name": "Basic Troubleshooting",
           "price": "250",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=0412"
         },
         {
           "name": "Assembly and Windows Install",
           "price": "500",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=04123"
         }
       ],
       "menu": [],
@@ -157,7 +163,7 @@
         {
           "name": "All Day Pass",
           "price": "100",
-          "image": ""
+          "image": "https://picsum.photos/200/?rand&t=041231"
         }
       ],
       "menu": [],
