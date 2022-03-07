@@ -19,9 +19,9 @@ export default function Dashboard() {
         <div class="h-screen hidden lg:block shadow-lg relative w-80">
             <div class="bg-white h-full dark:bg-gray-700">
                 <div class="flex items-center justify-start pt-6 ml-8">
-                    <p class="font-bold dark:text-white text-xl">
-                        Loop
-                    </p>
+                <a href="#" class="block relative">
+                            <img alt="profil" src="https://firebasestorage.googleapis.com/v0/b/loop-frontbyte.appspot.com/o/loop.png?alt=media&token=bcef2990-fd25-44a3-bde8-437679e4f763" class="mx-auto object-cover rounded-full h-10 w-20 "/>
+                        </a>
                 </div>
                 <nav class="mt-6">
                     <div>
