@@ -16,7 +16,7 @@ LOOP provides a platform for relationships between would-be businesses and poten
 <li>FontAwesome</li>
 </ul>
 
-## Getting Started
+## ✅ Getting Started
 Tested on Windows 10
 
 #### 1. Install Node 16.14.0 or higher versions
